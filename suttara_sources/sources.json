@@ -1,0 +1,43 @@
+{
+  "bundled_texts": {
+    "pali": {
+      "path": "texts/mahasatipatthana_pali.txt",
+      "source_url": "https://raw.githubusercontent.com/suttacentral/bilara-data/published/root/pli/ms/sutta/dn/dn22_root-pli-ms.json",
+      "credit": "SuttaCentral, Mahāsaṅgīti Pāli edition, Dīgha Nikāya 22",
+      "license": "CC0 (as described in SuttaCentral publication metadata)",
+      "sha256": "c5dba81aee30cbba7bb4bf4ea9cbebb924e7abbf98a334dc5d01c46a9f5ede8f"
+    },
+    "english": {
+      "path": "texts/mahasatipatthana_english.txt",
+      "source_url": "https://raw.githubusercontent.com/suttacentral/bilara-data/published/translation/en/sujato/sutta/dn/dn22_translation-en-sujato.json",
+      "credit": "Bhikkhu Sujato, The Longer Discourse on Mindfulness Meditation (DN 22)",
+      "license": "CC0 1.0 — https://creativecommons.org/publicdomain/zero/1.0/",
+      "sha256": "8bb55c04b68aaa7a3870a40a8dfb7672e2371c721da89d3e182ef3506cf9683a"
+    }
+  },
+  "title": "Mahāsatipaṭṭhāna Sutta",
+  "reference": "DN 22",
+  "audio_archives": {
+    "spoken_pali": "https://ancient-buddhist-texts.net/Audio/Zips/Pali-Mahasatipatthana.zip"
+  },
+  "goenka_chanting_youtube": "https://www.youtube.com/watch?v=BrRDmiw0jvA",
+  "text_note": "Working texts are UTF-8 plain text from SuttaCentral. Roland Kitchen's English reading follows Bhikkhu Sujato's translation; minor edition differences may still exist. Ānandajoti's spoken Pāli follows a different edition.",
+  "spoken_english_source": {
+    "title": "The Longer Discourse on Mindfulness Meditation (DN 22)",
+    "translation": "Bhikkhu Sujato (CC0)",
+    "reader": "Roland Kitchen",
+    "publisher": "Pali Audio",
+    "page": "https://www.paliaudio.com/dn22",
+    "recording_license": "Not verified; do not assume permission to redistribute",
+    "files": [
+      {
+        "path": "audio/spoken_english/dn22_sujato_roland_kitchen_part1.mp3",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5e98671693b8617043b5c18a/1587627429237/DN%2B22%2B%281%29%2BThe%2Blonger%2Bdiscourse%2Bon%2Bmindfulness%2Bmeditation%281%29.mp3"
+      },
+      {
+        "path": "audio/spoken_english/dn22_sujato_roland_kitchen_part2.mp3",
+        "url": "https://static1.squarespace.com/static/58384d438419c2f3cb695f5b/t/5e98689a6c3087496beeb7db/1587627429241/DN%2B22%2B%282%29%2BThe%2Blonger%2Bdiscourse%2Bon%2Bmindfulness%2Bmeditation.mp3"
+      }
+    ]
+  }
+}

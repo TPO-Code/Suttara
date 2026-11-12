@@ -1,0 +1,7 @@
+{
+  "allow_parent_config_traversal": false,
+  "external_services": [],
+  "file_templates": [],
+  "ignored_tooling": [],
+  "schema_version": 5
+}

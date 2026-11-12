@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Suttara"
+version = "0.1.0"
+description = "A local-first PySide6 study workspace for the Mahāsatipaṭṭhāna Sutta."
+requires-python = "==3.11.*"
+dependencies = [
+    "bs4>=0.0.2",
+    # PySide 6.12.0 corrupts CPython 3.11 refcounts during repeated QPainter
+    # calls (observable as none_dealloc while dragging timeline handles).
+    "PySide6>=6.8,<6.12",
+    "requests>=2.34.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]
+
+[project.scripts]
+suttara = "suttara.app:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+suttara = ["resources/*.html"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+
+[tool.pyright]
+typeCheckingMode = "standard"
+pythonVersion = "3.11"
+exclude = ["**/node_modules", "**/__pycache__", "**/.*", ".venv"]
+venvPath = "."
+venv = ".venv"
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+exclude = ["**/node_modules", "**/__pycache__", "**/.*", ".venv"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]

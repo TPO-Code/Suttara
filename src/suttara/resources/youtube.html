@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  html, body { margin: 0; padding: 0; width: 100%; height: 100%; background: #151515; overflow: hidden; }
+  #player { position: absolute; inset: 0; width: 100%; height: 100%; }
+  #note { position: absolute; inset: 0; display: none; align-items: center; justify-content: center;
+          color: #e7e3d9; font: 14px system-ui, sans-serif; text-align: center; padding: 24px; }
+</style>
+<script>
+  var START = __START__;
+  var END = __END__;
+  var LOOP = __LOOP__;
+  var VIDEO_ID = __VIDEO_ID__;
+  var player = null;
+  var ready = false;
+  var pendingPlay = false;
+  var lastError = "";
+
+  function showError(message) {
+    lastError = String(message || "Unknown YouTube embed error");
+    var note = document.getElementById("note");
+    if (note) {
+      note.textContent = lastError;
+      note.style.display = "flex";
+    }
+  }
+
+  function onYouTubeIframeAPIReady() {
+    try {
+      player = new YT.Player("player", {
+        height: "100%",
+        width: "100%",
+        videoId: VIDEO_ID,
+        playerVars: {
+          autoplay: 0,
+          controls: 0,
+          disablekb: 1,
+          enablejsapi: 1,
+          fs: 0,
+          modestbranding: 1,
+          playsinline: 1,
+          rel: 0
+        },
+        events: {
+          onReady: function () {
+            ready = true;
+            var note = document.getElementById("note");
+            if (note) { note.style.display = "none"; }
+            try { player.setVolume(100); } catch (error) {}
+            if (pendingPlay) { pendingPlay = false; doPlay(); }
+          },
+          onStateChange: function () {},
+          onError: function (event) {
+            showError("YouTube refused to play this video in the embed (error " + event.data + "). Use Open in browser.");
+          }
+        }
+      });
+    } catch (error) {
+      showError("Could not create the embedded YouTube player: " + error);
+    }
+  }
+
+  function currentTime() {
+    if (!ready) { return 0; }
+    try { return Number(player.getCurrentTime()) || 0; } catch (error) { return 0; }
+  }
+
+  function duration() {
+    if (!ready) { return 0; }
+    try { return Number(player.getDuration()) || 0; } catch (error) { return 0; }
+  }
+
+  function doPlay() {
+    if (!ready) { pendingPlay = true; return; }
+    var t = currentTime();
+    if (t < START - 0.25 || (END > 0 && t >= END - 0.25)) {
+      player.seekTo(START, true);
+    }
+    player.playVideo();
+  }
+
+  function doPause() {
+    pendingPlay = false;
+    if (!ready) { return; }
+    try { player.pauseVideo(); } catch (error) {}
+  }
+
+  function doStop() {
+    pendingPlay = false;
+    if (!ready) { return; }
+    try {
+      player.pauseVideo();
+      player.seekTo(START, true);
+    } catch (error) {}
+  }
+
+  function doSeek(seconds) {
+    if (!ready) { return; }
+    var target = Number(seconds) || 0;
+    if (target < START) { target = START; }
+    if (END > 0 && target > END) { target = Math.max(START, END - 0.1); }
+    try { player.seekTo(target, true); } catch (error) {}
+  }
+
+  function setRange(start, end, loop) {
+    START = Math.max(0, Number(start) || 0);
+    END = Math.max(0, Number(end) || 0);
+    LOOP = Boolean(loop);
+    if (ready && END > 0 && currentTime() > END) {
+      player.seekTo(START, true);
+    }
+  }
+
+  function enforceBoundary() {
+    if (!ready) { return; }
+    var t = currentTime();
+    var state = -1;
+    try { state = player.getPlayerState(); } catch (error) {}
+    if (END > 0 && t >= END) {
+      if (LOOP) {
+        player.seekTo(START, true);
+        player.playVideo();
+      } else {
+        player.pauseVideo();
+        player.seekTo(Math.max(START, END - 0.15), true);
+      }
+      return;
+    }
+    if (state === 1 && t < START - 0.5) {
+      player.seekTo(START, true);
+    }
+  }
+
+  function getState() {
+    var state = -1;
+    if (ready) {
+      try { state = player.getPlayerState(); } catch (error) {}
+    }
+    return {
+      ready: ready,
+      time: currentTime(),
+      duration: duration(),
+      state: state,
+      error: lastError,
+      start: START,
+      end: END,
+      loop: LOOP
+    };
+  }
+
+  window.suttara = {
+    play: doPlay,
+    pause: doPause,
+    stop: doStop,
+    seek: doSeek,
+    setRange: setRange,
+    state: getState
+  };
+
+  window.setInterval(enforceBoundary, 250);
+  window.setTimeout(function () {
+    if (!ready && !lastError) {
+      showError("The embedded YouTube player did not become ready. Check your network connection, or use Open in browser.");
+    }
+  }, 15000);
+</script>
+<script src="https://www.youtube.com/iframe_api"></script>
+</head>
+<body>
+  <div id="player"></div>
+  <div id="note">Loading YouTube player…</div>
+</body>
+</html>

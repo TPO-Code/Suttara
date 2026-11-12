@@ -1,0 +1,48 @@
+# >>> crone shareable configuration >>>
+# Crone: deliberate project configuration lives in .crone/user/ and is
+# shared; everything else in .crone/ is this machine's runtime state and
+# is never committed.
+.crone/*
+!.crone/user/
+!.crone/user/**
+# <<< crone shareable configuration <<<
+
+# Python bytecode and build output
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+
+# Test, lint and type-checker caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyright/
+.pyre/
+
+# Suttara generated data
+# Waveform caches are rebuilt with ffmpeg and safe to delete.
+.suttara_cache/
+# Atomic-save leftovers and backups of an unreadable project file.
+.suttara.json.*.tmp
+suttara.json.corrupt-*.bak
+
+# Downloaded third-party resources
+# Acquired with ``python download_suttara_sources.py``; the recordings are not
+# redistributable. Provenance records (sources.txt, suttara_sources/sources.json)
+# and the CC0 working texts stay tracked.
+suttara_sources/audio/
+suttara_sources/archives/
+
+# OS and editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~

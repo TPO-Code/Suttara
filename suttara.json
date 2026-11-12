@@ -1,0 +1,1563 @@
+{
+  "schema_version": 1,
+  "sections": [
+    {
+      "id": "56b9dea359b64873b84249d0373cc6f3",
+      "title": "Complete",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 1,
+        "start_column": 1,
+        "end_line": 129,
+        "end_column": 352
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 1,
+        "start_column": 1,
+        "end_line": 137,
+        "end_column": 135
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": {
+        "start_seconds": 0.0,
+        "end_seconds": 0.0,
+        "loop": true
+      }
+    },
+    {
+      "id": "78d48fe0ca675ec8bcc2612151824ff7",
+      "title": "Canonical Reference",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 1,
+        "start_column": 1,
+        "end_line": 3,
+        "end_column": 1
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 1,
+        "start_column": 1,
+        "end_line": 3,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "a28f8bfc3a7f558a85cb86022e142b8b",
+      "title": "Discourse Title",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 3,
+        "start_column": 1,
+        "end_line": 5,
+        "end_column": 1
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 3,
+        "start_column": 1,
+        "end_line": 5,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "a4649b78614855ae92b7d45a318f92f2",
+      "title": "The Direct Path and the Four Foundations",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 5,
+        "start_column": 1,
+        "end_line": 5,
+        "end_column": 521
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 5,
+        "start_column": 1,
+        "end_line": 7,
+        "end_column": 1
+      },
+      "spoken_pali": {
+        "path": "suttara_sources/audio/spoken_pali/01-Uddeso.mp3",
+        "start_seconds": 7.384,
+        "end_seconds": 98.43,
+        "loop": false
+      },
+      "spoken_english": {
+        "path": "suttara_sources/audio/spoken_english/dn22_sujato_roland_kitchen_part1.mp3",
+        "start_seconds": 20.141,
+        "end_seconds": 66.116,
+        "loop": false
+      },
+      "goenka": {
+        "start_seconds": 50.506,
+        "end_seconds": 154.382,
+        "loop": false
+      }
+    },
+    {
+      "id": "647227e5476855ed93af6106cc7ae32e",
+      "title": "The Four Foundations — Summary",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 5,
+        "start_column": 521,
+        "end_line": 9,
+        "end_column": 1
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 7,
+        "start_column": 1,
+        "end_line": 9,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "5ff8571c901b55a2bcdbb35f59556b14",
+      "title": "Observing the Body",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 9,
+        "start_column": 1,
+        "end_line": 11,
+        "end_column": 1
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 9,
+        "start_column": 1,
+        "end_line": 11,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "ebf01b9107f050db8588863e2cc563c7",
+      "title": "Mindfulness of Breathing",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 11,
+        "start_column": 1,
+        "end_line": 13,
+        "end_column": 1
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 11,
+        "start_column": 1,
+        "end_line": 13,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "4abbc812210a51d389971798048d7509",
+      "title": "Breathing: Preparation and Long or Short Breaths",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 13,
+        "start_column": 1,
+        "end_line": 13,
+        "end_column": 459
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 13,
+        "start_column": 1,
+        "end_line": 15,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "57b432e2d2915816a3d712ce9604e441",
+      "title": "Breathing: Whole Body and Calming",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 13,
+        "start_column": 459,
+        "end_line": 17,
+        "end_column": 203
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 15,
+        "start_column": 1,
+        "end_line": 17,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "f1369decc6c45e3eb7e0a3383b3f4fb4",
+      "title": "Breathing: Contemplation Refrain",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 17,
+        "start_column": 203,
+        "end_line": 19,
+        "end_column": 84
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 17,
+        "start_column": 1,
+        "end_line": 19,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "2c15e3830f0b5757a8723d09eb2dda67",
+      "title": "The Four Postures",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 19,
+        "start_column": 84,
+        "end_line": 21,
+        "end_column": 139
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 19,
+        "start_column": 1,
+        "end_line": 21,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "d00aeb555fea535da38a623ad1f8add6",
+      "title": "Postures: Conclusion",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 21,
+        "start_column": 139,
+        "end_line": 21,
+        "end_column": 225
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 21,
+        "start_column": 1,
+        "end_line": 23,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "9716b29a2b2a5b8cb596ad1881acd6ba",
+      "title": "Situational Awareness",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 21,
+        "start_column": 225,
+        "end_line": 23,
+        "end_column": 108
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 23,
+        "start_column": 1,
+        "end_line": 25,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "e6485e36a4875ba9bd7b4d825d37cf89",
+      "title": "Body Parts and the Grain-Bag Simile",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 23,
+        "start_column": 108,
+        "end_line": 25,
+        "end_column": 436
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 25,
+        "start_column": 1,
+        "end_line": 27,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "97ce4b610fe25f4885add2acf3bd1d5e",
+      "title": "Body Parts: Contemplation Refrain",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 25,
+        "start_column": 436,
+        "end_line": 27,
+        "end_column": 37
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 27,
+        "start_column": 1,
+        "end_line": 29,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "1f0fa8da1e645d4c80a5136887ab784c",
+      "title": "Elements and the Butcher’s Simile",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 27,
+        "start_column": 37,
+        "end_line": 29,
+        "end_column": 1
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 29,
+        "start_column": 1,
+        "end_line": 31,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "1e5dbf53e70c591ba303fd166a208e40",
+      "title": "Elements: Contemplation Refrain",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 29,
+        "start_column": 1,
+        "end_line": 29,
+        "end_column": 140
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 31,
+        "start_column": 1,
+        "end_line": 33,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "0b364b276148502084501ebc25acba0c",
+      "title": "Charnel Ground: A Decaying Corpse",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 29,
+        "start_column": 140,
+        "end_line": 31,
+        "end_column": 313
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 33,
+        "start_column": 1,
+        "end_line": 35,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "5b2e024fc7145e77b2c9edc0ec44735e",
+      "title": "Charnel Ground: Scavengers and Skeletons",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 31,
+        "start_column": 313,
+        "end_line": 33,
+        "end_column": 118
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 35,
+        "start_column": 1,
+        "end_line": 37,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "bf87eaef5f015a588c499d9c96e1416f",
+      "title": "Charnel Ground: Bones and Contemplation",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 33,
+        "start_column": 118,
+        "end_line": 35,
+        "end_column": 271
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 37,
+        "start_column": 1,
+        "end_line": 39,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "f00df6ab77905cd893e8c5f2c9b60be2",
+      "title": "Charnel Ground: Conclusion",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 35,
+        "start_column": 271,
+        "end_line": 35,
+        "end_column": 392
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 39,
+        "start_column": 1,
+        "end_line": 41,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "7a962ba59e65533e895a907e8b9ed564",
+      "title": "Observing Feelings",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 35,
+        "start_column": 392,
+        "end_line": 37,
+        "end_column": 325
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 41,
+        "start_column": 1,
+        "end_line": 43,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "46304460198e5d72a3d420bd9b003ca0",
+      "title": "Feelings of the Flesh and Not of the Flesh",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 37,
+        "start_column": 325,
+        "end_line": 39,
+        "end_column": 254
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 43,
+        "start_column": 1,
+        "end_line": 45,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "12f8f3ea97f75eb19afce910bd301798",
+      "title": "Feelings: Contemplation Refrain",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 39,
+        "start_column": 254,
+        "end_line": 41,
+        "end_column": 91
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 45,
+        "start_column": 1,
+        "end_line": 47,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "9de0369b0b7753068f44762d8203ff7c",
+      "title": "Observing the Mind",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 41,
+        "start_column": 91,
+        "end_line": 43,
+        "end_column": 54
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 47,
+        "start_column": 1,
+        "end_line": 49,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "645d8e9597f254a994c2e0343fa715db",
+      "title": "States of Mind",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 43,
+        "start_column": 54,
+        "end_line": 45,
+        "end_column": 1
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 49,
+        "start_column": 1,
+        "end_line": 51,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "97a56846424e5c3ba265ddac425961ff",
+      "title": "Mind: Contemplation Refrain",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 45,
+        "start_column": 1,
+        "end_line": 47,
+        "end_column": 1
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 51,
+        "start_column": 1,
+        "end_line": 53,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "8c7abd07bf2f5397b5018cff9a768799",
+      "title": "Observing Principles",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 47,
+        "start_column": 1,
+        "end_line": 49,
+        "end_column": 1
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 53,
+        "start_column": 1,
+        "end_line": 55,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "01d2b3aec41e5369b32f673dc58f8c5b",
+      "title": "The Five Hindrances",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 49,
+        "start_column": 1,
+        "end_line": 51,
+        "end_column": 1
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 55,
+        "start_column": 1,
+        "end_line": 57,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "d6c34960fc6c5489b28289e386f2b3fb",
+      "title": "Sensual Desire",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 51,
+        "start_column": 1,
+        "end_line": 53,
+        "end_column": 1
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 57,
+        "start_column": 1,
+        "end_line": 59,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "01b017751e015fc48c45b1e3f7b711e1",
+      "title": "Ill Will and Dullness",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 53,
+        "start_column": 1,
+        "end_line": 55,
+        "end_column": 1
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 59,
+        "start_column": 1,
+        "end_line": 61,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "d198869dbd8b5ba89f9cf0204c8a29af",
+      "title": "Restlessness and Doubt",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 55,
+        "start_column": 1,
+        "end_line": 57,
+        "end_column": 1
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 61,
+        "start_column": 1,
+        "end_line": 63,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "c86f8986e8af53189d6644149fb5de18",
+      "title": "Hindrances: Contemplation Refrain",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 57,
+        "start_column": 1,
+        "end_line": 59,
+        "end_column": 27
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 63,
+        "start_column": 1,
+        "end_line": 65,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "9e0a22023aa25bfba3d72ec46c4787d2",
+      "title": "The Five Grasping Aggregates",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 59,
+        "start_column": 27,
+        "end_line": 59,
+        "end_column": 446
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 65,
+        "start_column": 1,
+        "end_line": 67,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "444022b1fdca522f9f5e6adb2460e522",
+      "title": "Choices and Consciousness",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 59,
+        "start_column": 446,
+        "end_line": 61,
+        "end_column": 274
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 67,
+        "start_column": 1,
+        "end_line": 69,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "9f1dfd1959ab5ac58935f30bd2c70d1b",
+      "title": "Aggregates: Conclusion",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 61,
+        "start_column": 274,
+        "end_line": 61,
+        "end_column": 389
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 69,
+        "start_column": 1,
+        "end_line": 71,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "416b2dae784b5e9c95aa71ac8a574923",
+      "title": "The Six Sense Fields",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 61,
+        "start_column": 389,
+        "end_line": 63,
+        "end_column": 422
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 71,
+        "start_column": 1,
+        "end_line": 73,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "10a523f2eba7545ab1c01e7fad6fc324",
+      "title": "Sense Fields and Fetters",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 63,
+        "start_column": 422,
+        "end_line": 69,
+        "end_column": 422
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 73,
+        "start_column": 1,
+        "end_line": 75,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "4fa279d30eb253328c4cdb2234a226e7",
+      "title": "Sense Fields: Conclusion",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 69,
+        "start_column": 422,
+        "end_line": 71,
+        "end_column": 26
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 75,
+        "start_column": 1,
+        "end_line": 77,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "f3dfea70e0ba58e3919e23483604b1b0",
+      "title": "The Seven Awakening Factors",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 71,
+        "start_column": 26,
+        "end_line": 73,
+        "end_column": 1
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 77,
+        "start_column": 1,
+        "end_line": 79,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "86f0cc261e935fedbaac4f067a5a552d",
+      "title": "Awakening Factors from Investigation to Equanimity",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 73,
+        "start_column": 1,
+        "end_line": 79,
+        "end_column": 1
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 79,
+        "start_column": 1,
+        "end_line": 81,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "f9f07288d6d7578b984dedb652416d65",
+      "title": "Awakening Factors: Contemplation Refrain",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 79,
+        "start_column": 1,
+        "end_line": 81,
+        "end_column": 28
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 81,
+        "start_column": 1,
+        "end_line": 83,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "1a6e8a89cc2052c68f8f447f5de400fd",
+      "title": "The Four Noble Truths",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 81,
+        "start_column": 28,
+        "end_line": 83,
+        "end_column": 1
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 83,
+        "start_column": 1,
+        "end_line": 85,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "7b2489b3fc9650d883e1f080ca0e4b0b",
+      "title": "The Truth of Suffering and Rebirth",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 83,
+        "start_column": 1,
+        "end_line": 83,
+        "end_column": 380
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 85,
+        "start_column": 1,
+        "end_line": 87,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "933711d5bc755a02b921aac8afcc09ef",
+      "title": "Old Age and Death",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 83,
+        "start_column": 380,
+        "end_line": 85,
+        "end_column": 202
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 87,
+        "start_column": 1,
+        "end_line": 89,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "815c361b9e3f5428ac392f1aeae23214",
+      "title": "Sorrow, Lamentation, and Pain",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 85,
+        "start_column": 202,
+        "end_line": 87,
+        "end_column": 126
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 89,
+        "start_column": 1,
+        "end_line": 91,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "fcc6b9fd2703587fb65c92147417ec6d",
+      "title": "Pain, Sadness, Distress, and the Disliked",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 87,
+        "start_column": 126,
+        "end_line": 89,
+        "end_column": 318
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 91,
+        "start_column": 1,
+        "end_line": 93,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "dc4f832529f155aa8046ee35e196fb01",
+      "title": "Separation from the Liked",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 89,
+        "start_column": 318,
+        "end_line": 91,
+        "end_column": 60
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 93,
+        "start_column": 1,
+        "end_line": 95,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "5f2d69dc26595e08bc9cff4ad1c70174",
+      "title": "Not Getting One’s Wish: Rebirth and Old Age",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 91,
+        "start_column": 60,
+        "end_line": 91,
+        "end_column": 474
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 95,
+        "start_column": 1,
+        "end_line": 97,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "5e483462f85f55db9557abd3172a825b",
+      "title": "Not Getting One’s Wish: Illness",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 91,
+        "start_column": 474,
+        "end_line": 93,
+        "end_column": 79
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 97,
+        "start_column": 1,
+        "end_line": 99,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "aa2f5935877a521cbd23d410f240865a",
+      "title": "Not Getting One’s Wish: Death",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 93,
+        "start_column": 79,
+        "end_line": 93,
+        "end_column": 292
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 99,
+        "start_column": 1,
+        "end_line": 101,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "4bfb3263931559f6afe60c5febe210e4",
+      "title": "Not Getting One’s Wish and the Five Aggregates",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 93,
+        "start_column": 292,
+        "end_line": 95,
+        "end_column": 263
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 101,
+        "start_column": 1,
+        "end_line": 103,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "c74925b68826578ca12116db9cdd7c01",
+      "title": "The Origin of Suffering",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 95,
+        "start_column": 263,
+        "end_line": 97,
+        "end_column": 185
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 103,
+        "start_column": 1,
+        "end_line": 105,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "6ce71cb36a3d5b6bba80ddf94bf38819",
+      "title": "Where Craving Arises: Senses and Consciousness",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 97,
+        "start_column": 185,
+        "end_line": 99,
+        "end_column": 208
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 105,
+        "start_column": 1,
+        "end_line": 107,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "22afd3dc1059584f81dfe594235e00ae",
+      "title": "Contact, Feeling, and Perception",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 99,
+        "start_column": 208,
+        "end_line": 101,
+        "end_column": 197
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 107,
+        "start_column": 1,
+        "end_line": 109,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "294396bc0d3f50a180ae0890c2689e08",
+      "title": "Intention, Craving, and Thought",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 101,
+        "start_column": 197,
+        "end_line": 103,
+        "end_column": 209
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 109,
+        "start_column": 1,
+        "end_line": 111,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "18b36b90a4fb5936abb1c2796849519d",
+      "title": "Consideration and the Cessation of Craving",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 103,
+        "start_column": 209,
+        "end_line": 105,
+        "end_column": 166
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 111,
+        "start_column": 1,
+        "end_line": 113,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "d0c21047b7725b1a92e3a4ec8fb6946f",
+      "title": "Where Craving Ceases",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 105,
+        "start_column": 166,
+        "end_line": 111,
+        "end_column": 508
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 113,
+        "start_column": 1,
+        "end_line": 115,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "57be510007805814a9f1c84b8b971ca9",
+      "title": "The Noble Eightfold Path and Right View",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 111,
+        "start_column": 508,
+        "end_line": 113,
+        "end_column": 436
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 115,
+        "start_column": 1,
+        "end_line": 117,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "f43f1cbf0bf45e179d243de8e6437d7d",
+      "title": "Right Intention, Speech, Action, and Livelihood",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 113,
+        "start_column": 436,
+        "end_line": 117,
+        "end_column": 1
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 117,
+        "start_column": 1,
+        "end_line": 119,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "9c42f2912f4552839c671b8ca82c60e6",
+      "title": "Right Effort",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 117,
+        "start_column": 1,
+        "end_line": 119,
+        "end_column": 1
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 119,
+        "start_column": 1,
+        "end_line": 121,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "d32aa7ae5d0154f6b6a145f9b948c7a3",
+      "title": "Right Mindfulness",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 119,
+        "start_column": 1,
+        "end_line": 119,
+        "end_column": 439
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 121,
+        "start_column": 1,
+        "end_line": 123,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "f5e0412e9a2d579bad3d53e3488f2c77",
+      "title": "Right Immersion: First and Second Absorptions",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 119,
+        "start_column": 439,
+        "end_line": 121,
+        "end_column": 296
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 123,
+        "start_column": 1,
+        "end_line": 125,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "febbfdc7f35457dd97e1f855cab33381",
+      "title": "Right Immersion: Third and Fourth Absorptions",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 121,
+        "start_column": 296,
+        "end_line": 123,
+        "end_column": 40
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 125,
+        "start_column": 1,
+        "end_line": 127,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "1f84b819b2fc5233bace243f3190c718",
+      "title": "The Path: Contemplation Refrain",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 123,
+        "start_column": 40,
+        "end_line": 125,
+        "end_column": 1
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 127,
+        "start_column": 1,
+        "end_line": 129,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "f6e78e9bd5175363847a2e9f66ab5dd2",
+      "title": "The Four Truths: Conclusion",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 125,
+        "start_column": 1,
+        "end_line": 125,
+        "end_column": 134
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 129,
+        "start_column": 1,
+        "end_line": 131,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "d0a7ceae8f6a5423898ccc365bae0b33",
+      "title": "Seven Years to Awakening",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 125,
+        "start_column": 134,
+        "end_line": 127,
+        "end_column": 1
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 131,
+        "start_column": 1,
+        "end_line": 133,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "2b446b01650d5c7bac690c36b2f19c20",
+      "title": "Seven Months to Awakening",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 127,
+        "start_column": 1,
+        "end_line": 127,
+        "end_column": 215
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 133,
+        "start_column": 1,
+        "end_line": 135,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "c9e4073f2aae55488514eec0c507173f",
+      "title": "Seven Days to Awakening",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 127,
+        "start_column": 215,
+        "end_line": 129,
+        "end_column": 191
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 135,
+        "start_column": 1,
+        "end_line": 137,
+        "end_column": 1
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    },
+    {
+      "id": "4dfd342906ba5be5822861be4f713815",
+      "title": "Closing Words",
+      "notes": "",
+      "pali_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_pali.txt",
+        "start_line": 129,
+        "start_column": 191,
+        "end_line": 129,
+        "end_column": 352
+      },
+      "english_text": {
+        "path": "suttara_sources/texts/mahasatipatthana_english.txt",
+        "start_line": 137,
+        "start_column": 1,
+        "end_line": 137,
+        "end_column": 135
+      },
+      "spoken_pali": null,
+      "spoken_english": null,
+      "goenka": null
+    }
+  ]
+}
